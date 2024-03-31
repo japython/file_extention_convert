@@ -5,7 +5,7 @@ target_directory = "D:\AVCHD\BDMV\STREAM"  # 対象のディレクトリのパ�
 
 #保存先フォルダ名の指定
 dist_dir = input('行先フォルダ名？:')
-dist_dir2 = os.path.join("G:\\2023年画像",dist_dir)
+dist_dir2 = os.path.join("G:\\2024年画像",dist_dir)
 os.mkdir(dist_dir2)
 
 old_extension = ".MTS"  # 変更前の拡張子
